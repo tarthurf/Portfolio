@@ -1,12 +1,25 @@
 .text {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+    color: #666666;
     font-size: 16px;
+}
+
+form {
+    padding-top: 25px;
+}
+
+form input {
+    margin: 15px;
+    border-radius: 5px;
+}
+
+form input:focus {
+    border: 1px #4aaaa5 solid;
 }
 
 h1 {
     border-bottom: solid #666666 2px;
-    padding: 25px 0;
+    padding: 25px 25px;
     margin: 0px 25px;
 }
 
