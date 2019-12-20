@@ -1,21 +1,31 @@
-h1 {
-    color: #4aaaa5;
-}
-
 /* header {
     background-color: #4aaaa5;
 } */
 
-h3 {
+.topnav {
     float: right;
-    margin-left: 4px;
+    margin-left: 5px;
     border-left: #777777;
     border-left: 1px;
-
+    overflow: hidden;
 }
 
-p {
+.topnav a {
+    float: right;
     color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+.active {
+    background-color: #4aaaa5;
 }
 
 .colorGrey {
@@ -26,8 +36,13 @@ p {
     color: #4aaaa5;
 }
 
-.mainContentColor {
+.backTealheader span {
+    background-color: #4aaaa5;
+}
+
+.mainContent {
     background-color: #ffffff;
+    width: 960px;
 }
 
 .footerTop {
@@ -66,7 +81,7 @@ header {
     background: lightcyan;
 }
 
-/* Trick */
+/* Trick !!!look into flex and grid for css!!! */
 body {
     display: flex;
     flex-direction: column;
