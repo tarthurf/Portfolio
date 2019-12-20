@@ -1,12 +1,27 @@
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+}
+
+header {
+    position: relative;
+    top: -2px;
+    /* left: -13px; */
+}
+
 .header {
     font-size: 24px;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 10px;
     position: relative;
     top: -49px;
     right: 13px;
+    border: 2px;
+    border-color: #cccccc;
 }
 
 .topnav {
@@ -15,6 +30,9 @@
     border-left: #777777;
     border-left: 1px;
     overflow: hidden;
+    position: relative;
+    top: -89px;
+    right: -13px; 
 }
 
 .topnav a {
@@ -57,7 +75,7 @@
     background-color: #ffffff;
     width: 960px;
     margin: auto;
-    border: 3px solid #666666;
+    border: 3px solid #dddddd;
     padding: 10px;
 }
 
@@ -96,7 +114,7 @@ body {
 
 /* Trick !!!look into flex and grid for css!!! */
 body {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background.png);
     display: flex;
     flex-direction: column;
     padding: 70px;
