@@ -1,6 +1,13 @@
-/* header {
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
     background-color: #4aaaa5;
-} */
+    padding: 10px;
+    position: relative;
+    top: -49px;
+    right: 13px;
+}
 
 .topnav {
     float: right;
@@ -87,19 +94,17 @@ body {
     margin: 0;
 }
 
-header {
-    height: 50px;
-    background: lightcyan;
-}
-
 /* Trick !!!look into flex and grid for css!!! */
 body {
+    background-image: url(../images/background.jpg);
     display: flex;
     flex-direction: column;
+    padding: 70px;
 }
 
 footer {
     margin-top: auto;
+    padding-top: 70px;
 }
 
 .row {
