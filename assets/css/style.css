@@ -114,12 +114,23 @@ header {
 }
 
 .placeHolder {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 290px;
     border: 2px;
     border-style: solid;
     border-color: #666666;
-    margin: 30px;
+    margin: 10px;
+}
+
+figcaption {
+    position: relative;
+    background-color: #4aaaa5;
+    height: 27px;
+    width: 294px;
+    text-align: center;
+    bottom: 79px;
+    left: 10px;
+    padding-top: 9px;
 }
 
 .bioPic {
@@ -152,11 +163,11 @@ footer {
 
 .row {
     display: flex;
-    justify-content: center;
+    float: left;
 }
 
 .column {
     display: inline-flex;
-    padding: 10px;
+    padding: 40px;
     flex-direction: column;
 }
