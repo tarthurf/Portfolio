@@ -8,13 +8,14 @@ form {
     padding-top: 25px;
 }
 
-form input {
+input {
     margin: 15px;
     border-radius: 5px;
 }
 
-form input:focus {
-    border: 1px #4aaaa5 solid;
+input:focus {
+    transition: all .1s;
+    border: 3px #4aaaa5 solid;
 }
 
 h1 {
@@ -26,7 +27,6 @@ h1 {
 header {
     position: relative;
     top: -2px;
-    /* left: -13px; */
 }
 
 .header {
@@ -51,7 +51,7 @@ header {
     overflow: hidden;
     position: relative;
     top: -89px;
-    right: -13px; 
+    right: -13px;
 }
 
 .topnav a {
@@ -61,7 +61,12 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    /* transition: all .5s; */
+
+}
+
+figure:hover {
+    transition: all 1s;
+    opacity: 70%;
 }
 
 .topnav a:hover {
@@ -75,8 +80,8 @@ header {
 
 .grad:hover {
     transition: all .5s;
-    background-image: linear-gradient(to center, rgba(74,170,165,0), rgba(74,170,165,1));
-  }
+    background-image: linear-gradient(to center, rgba(74, 170, 165, 0), rgba(74, 170, 165, 1));
+}
 
 .colorGrey {
     color: #777777;
@@ -103,7 +108,7 @@ header {
     width: 100%;
     height: 5px;
     background: #4aaaa5;
-    text-align: center;
+    top: -5px;
 }
 
 .footerMain {
@@ -111,6 +116,7 @@ header {
     width: 100%;
     height: 40px;
     background: #666666;
+    text-align: center;
 }
 
 .placeHolder {
@@ -148,7 +154,6 @@ body {
     margin: 0;
 }
 
-/* Trick !!!look into flex and grid for css!!! */
 body {
     background-image: url(../images/background.png);
     display: flex;
